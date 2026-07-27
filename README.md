@@ -14,7 +14,7 @@ Programming Implementation: In Python, this is natively supported. Your raw inpu
 2. The Step-by-Step Architecture PipelineBuilding an LLM from scratch follows four distinct developmental stages:
    
 ```
- [Raw Characters/UTF-8] 
+[Raw Characters/UTF-8] 
          │
          ▼
 [Stage 1: Tokenization] ───► Converts text into integer IDs
