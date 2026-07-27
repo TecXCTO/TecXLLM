@@ -128,4 +128,7 @@ if __name__ == "__main__":
     # Verify strict equality
     assert test_sentence == decoded_text, "Error: Tokenizer lost information during parsing!"
     print("Success: Zero information lost. Completely robust.")
-  
+
+"""
+Why This Avoids Common Starting MistakesNo Unknown Characters (<UNK>): Traditional tokenizers break if they run into a symbol they haven't seen. This tokenizer falls back to basic single-byte values (0-255) if it encounters a new, rare symbol, meaning it can process any character sequence on earth.Regex Splitting Boundaries: If you merge bytes blindly without a regex parser, space blocks or punctuation will fuse into common word combinations (e.g., ",and" or "4."). The injected regex pattern ensures numbers, words, and text punctuation remain cleanly isolated.
+"""
