@@ -113,8 +113,9 @@ Purpose: The central execution engine. It initializes your tokenizer, sets up th
 ## 3. Basic Dependency Configuration (requirements.txt)
  
    To ensure this workspace installs cleanly on any machine, populate your requirements.txt with these core libraries:
-   
+```  
 texttorch>=2.0.0
 regex>=2023.0.0
 numpy>=1.24.0
 tqdm>=4.65.0
+```
