@@ -1,6 +1,8 @@
 # TecXLLM
 Technology Engineering Computation Expansion  LLM
 
+# Project documentation, setup steps, and architecture map
+
 The Large Language Model (LLM) completely from scratch—starting from raw characters, digits, and symbols, It will follow a structured, multi-stage pipeline. the complete roadmap, including the character standards, intermediate steps, specific methods, and the best final transformer architecture.
 
 1. The Character Base Standard
