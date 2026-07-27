@@ -65,7 +65,7 @@ Activation Function: Use SwiGLU (Swish Gated Linear Unit) in your feed-forward n
 ##########
 ## 1. Repository Directory Structure
 ```
-my-custom-llm/
+tecxllm/
 │
 ├── .github/
 │   └── workflows/
