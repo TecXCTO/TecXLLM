@@ -12,8 +12,9 @@ Why UTF-8? ASCII only covers 128 basic characters. UTF-8 supports over 149,000 c
 Programming Implementation: In Python, this is natively supported. Your raw input is treated as a sequence of UTF-8 bytes or Unicode characters.
 
 2. The Step-by-Step Architecture PipelineBuilding an LLM from scratch follows four distinct developmental stages:
-
-   [Raw Characters/UTF-8] 
+   
+```
+ [Raw Characters/UTF-8] 
          │
          ▼
 [Stage 1: Tokenization] ───► Converts text into integer IDs
@@ -26,6 +27,8 @@ Programming Implementation: In Python, this is natively supported. Your raw inpu
          │
          ▼
 [Stage 4: Fine-tuning]  ───► Aligns the model to follow instructions (RLHF/SFT)
+
+```
 
 ##########
 
