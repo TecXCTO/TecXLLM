@@ -31,7 +31,7 @@ my-custom-llm/
 
 ```
 
-2. Breakdown of Key Files and Naming
+## 2. Breakdown of Key Files and Naming
 
 src/tokenizer.py (Tokenization Code)
 
@@ -52,7 +52,7 @@ Purpose: Uses PyTorch’s Dataset module to memory-map text files, break them in
 src/train.py
 Purpose: The central execution engine. It initializes your tokenizer, sets up the model architecture, processes the text corpus, computes cross-entropy loss, and optimizes neural weights.
 
-3. Basic Dependency Configuration (requirements.txt)
+## 3. Basic Dependency Configuration (requirements.txt)
  
    To ensure this workspace installs cleanly on any machine, populate your requirements.txt with these core libraries:
    
